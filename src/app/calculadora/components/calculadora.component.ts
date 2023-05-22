@@ -46,6 +46,8 @@ export class CalculadoraComponent implements OnInit {
     if (numConcat === '.' && numAtual.indexOf('.') > -1) {
       return numAtual;
     }
+
+    return numAtual + numConcat;
   }
 
 }
